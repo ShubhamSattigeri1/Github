@@ -30,3 +30,4 @@ with col2:
 # Add a footer
 st.markdown("---")
 st.write("Created by [Shubham Sattigeri]")
+print("Thank you for using this program.")

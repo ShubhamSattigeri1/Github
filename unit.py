@@ -9,3 +9,5 @@
 #     main()
 import streamlit as st
 st.title("Welcome.")
+print("Hello World")
+st.write("This is a simple program.")

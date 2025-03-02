@@ -11,3 +11,4 @@ def result():
     print(f"Your Location is {locat}.")     
 
 result()
+print("Thank you for using this program.")
