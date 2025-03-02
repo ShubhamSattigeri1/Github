@@ -10,5 +10,4 @@ def result():
     print(f"Your age is {age}.") 
     print(f"Your Location is {locat}.")     
 
-result()   
-print("HI")
+result()

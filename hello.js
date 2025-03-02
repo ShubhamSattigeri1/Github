@@ -1,3 +1,3 @@
-var name = [1,2,3,4,5,6,7]
-name[0] = 5
-console.log(name)
+var ourarray = ["Shubham", "Saurabh", "Rahul",25];
+ourarray = ourarray.filter(item => item !== 25);
+console.log(ourarray);
