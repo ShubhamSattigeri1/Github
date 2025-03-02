@@ -11,7 +11,8 @@
 
 # }
     
-p = int(input("Enter a Valid Positive number : "))   
-while p>0:
-    print(f"You have printed this  {p} times.")
-    p -= 1
+# p = int(input("Enter a Valid Positive number : "))   
+# while p>0:
+#     print(f"You have printed this  {p} times.")
+#     p -= 1
+ 
