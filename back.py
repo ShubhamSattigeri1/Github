@@ -3,9 +3,9 @@
 
 # def form():
 #     count = 0
-#     name = st.text_input("Enter Your Name: ", key = "lavdya_name1")
+#     name = st.text_input("Enter Your Name: ", key = "1")
 #     count += 1
-#     age = st.text_input("Enter Your Age: ", key = "bhadvya_age2")
+#     age = st.text_input("Enter Your Age: ", key = "2")
 #     count += 1
 #     phone = st.text_input("Enter Your Phone Number: ", key = "uniqueee_phone3")
 #     while len(phone) != 10 and phone:
