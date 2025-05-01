@@ -15,3 +15,52 @@ int main() {
     cout << "Sum of 1, 2 and 3 (int): " << add(1, 2, 3) << endl;
     return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+class weight {
+private:
+    int kg;
+public:
+    weight(int x = 0) : kg(x) {} // Constructor to initialize kg
+    void weightt() { // Renamed to print weight
+        cout << "Weight in kg: " << kg << endl;
+    }
+    // Overload pre-increment (++a) 
+    void operator++() {
+        ++kg; // Increment weight
+        return *this;
+    }
+    // Overload post-increment (a++)
+    void operator++(int) {
+        weight temp = *this;
+        ++kg; // Increment weight
+        return temp;
+    }
+    // Overload pre-decrement (--a)
+    void operator--() {
+        --kg; // Decrement weight
+        return *this;
+    }
+};
+
+int main() {
+    weight a(5); // Initialize with 5kg
+    a.weightt(); // Print initial weight
+    ++a; // Pre-increment
+    a.weightt();
+    a++; // Post-increment
+    a.weightt();
+    --a; // Pre-decrement
+    a.weightt();
+    return 0;
+}
+
+
+
+
+
+
+
