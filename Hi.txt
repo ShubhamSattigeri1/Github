@@ -1,0 +1,9 @@
+1. File read write - done
+2. exception handling age > 18
+3. class template 
+4. function template
+5. overloadding overridding
+
+
+
+// Difference in file read write opearations --> questions
